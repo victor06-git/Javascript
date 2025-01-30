@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+title {
+    color: #007bff;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -17,15 +21,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 .input-container {
     margin: 10px 0; /* Espacio entre los contenedores */
-    padding: 10px;
+    padding: 20px; /* Aumentar el padding para más espacio interno */
+    margin-top: 5%; /* Reducido para que esté más arriba */
     border: 1px solid #ccc; /* Borde alrededor de cada contenedor */
     border-radius: 5px; /* Bordes redondeados */
-    width: 300px; /* Ancho fijo para los contenedores */
+    background: #14526b;
+    width: 400px; /* Ancho fijo para los contenedores */
+}
+.input-container2 {
+    margin: 10px 0; /* Espacio entre los contenedores */
+    padding: 20px; /* Aumentar el padding para más espacio interno */
+    margin-top: 5%; /* Reducido para que esté más arriba */
+    border: 1px solid #ccc; /* Borde alrededor de cada contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+    background: #14526b;
+    width: 400px; /* Ancho fijo para los contenedores */
 }
 
 input {
@@ -33,6 +48,7 @@ input {
     padding: 8px; /* Espaciado interno */
     border: 1px solid #aaa; /* Borde del input */
     border-radius: 4px; /* Bordes redondeados para el input */
+    margin-top: 30px; /* Aumentar el margen superior */
 }
 
 h1 {
@@ -42,13 +58,19 @@ h1 {
 
 .mensaje-container {
     border: 1px solid #007bff; /* Borde azul */
+    margin-top: 20%;
     border-radius: 4px;
     padding: 20px;
     background-color: #e7f1ff; /* Fondo claro para el mensaje */
+    width: 400px; /* Ancho fijo */
+    min-height: 50px; /* Altura mínima para evitar cambios de tamaño */
+    overflow: hidden; /* Oculta el contenido que se desborda */
 }
 
 label {
     display: block;
     font-size: 18px;
     color: #333;
+    margin-bottom: 0; /* Eliminar margen inferior para evitar cambios de tamaño */
+    padding: 0;
 }
