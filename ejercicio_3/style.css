@@ -46,7 +46,8 @@ button:hover {
 }
 
 #result {
+    display: block;
     margin-top: 20px;
-    font-size: 1.2em;
+    font-weight: bold;
     text-align: center;
 }

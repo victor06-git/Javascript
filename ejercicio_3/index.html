@@ -9,19 +9,17 @@
 <body>
     <div class="container">
         <h1>Calculadora de Nacimiento</h1>
-        <form id="birthForm">
-            <label for="year">Año de nacimiento:</label>
-            <input type="number" id="year" required>
+        <label for="year">Año de nacimiento:</label>
+        <input type="number" id="year" required>
 
-            <label for="month">Mes de nacimiento:</label>
-            <input type="number" id="month" min="1" max="12" required>
+        <label for="month">Mes de nacimiento:</label>
+        <input type="number" id="month" min="1" max="12" required>
 
-            <label for="day">Día de nacimiento:</label>
-            <input type="number" id="day" min="1" max="31" required>
+        <label for="day">Día de nacimiento:</label>
+        <input type="number" id="day" min="1" max="31" required>
 
-            <button type="submit">Calcular</button>
-        </form>
-        <div id="result"></div>
+        <button id="calculateButton">Calcular</button>
+        <label id="result"></label> <!-- Label para mostrar el resultado -->
     </div>
     <script src="script.js"></script>
 </body>
